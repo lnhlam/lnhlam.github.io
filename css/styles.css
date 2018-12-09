@@ -408,3 +408,17 @@ input[type=submit]:hover {
 	background-color: white;
 	color:black;
 }
+/*//////////////////////////////indivportfoliopages/////////////////////////////*/
+.portfolioCover{
+	position:relative;
+	overflow: hidden;
+	margin: 145px 0px 0px 0px;
+	padding: 70px 0px 100px 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	background-color: white;
+	
+}
+
