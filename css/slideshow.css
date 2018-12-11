@@ -4,11 +4,11 @@
     position: absolute;
     top: 145px;
     left: 0px;
-    color: white;
+    color: transparent;
     background-size:auto;
     background-position: 50% 50%;
     background-repeat: none;
-    opacity: .3;
+    opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
     -webkit-animation: imageAnimation 36s linear infinite 0s;
