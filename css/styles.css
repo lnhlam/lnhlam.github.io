@@ -413,7 +413,7 @@ p{
 	display:inline-block;
 	overflow: hidden;
 	padding: 20px;
-	height: 330px;
+	height: auto;
 	width: 400px;
 	text-align: left;
 	align-content: center;
