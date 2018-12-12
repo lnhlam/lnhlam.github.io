@@ -26,7 +26,10 @@ p{
 	font-size: 10pt;
 	font-kerning: auto;
 }
-
+iframe {
+   display: block;
+   margin: 0 auto;
+}
 .nav{
 	font-size: 16px;
 	height: 145px;
