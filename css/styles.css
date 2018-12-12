@@ -26,10 +26,7 @@ p{
 	font-size: 10pt;
 	font-kerning: auto;
 }
-iframe {
-   display: block;
-   margin: 0 auto;
-}
+
 .reel{
 	width: 855px;
 	height: 482px;
