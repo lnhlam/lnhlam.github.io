@@ -30,6 +30,10 @@ iframe {
    display: block;
    margin: 0 auto;
 }
+.reel{
+	width: 855px;
+	height: 482px;
+	margin:0 auto;
 .nav{
 	font-size: 16px;
 	height: 145px;
