@@ -87,8 +87,16 @@ p{
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
 	padding: 20px 0px 0px 0px;
-
 }
+.homebtn:hover{
+	transition:ease .5s;
+	opacity:.7;
+}
+.homebtnimg:hover{
+	transition:ease .5s;
+	opacity:.7;
+}
+
 .homebtn2 {
 	float: bottom;
 	font-family: "program", sans-serif;
@@ -138,7 +146,8 @@ p{
 .btn:hover {
 	color:#1aaa98;
 	text-shadow: 0px 0px 5px #9BDDFF;
-
+	font-weight: 500;
+	transition:ease .5s;
 }
 
 .slideshowContainer{
@@ -182,6 +191,10 @@ p{
 	height: 100px;
 	width: 50px;
 	color: #1aaa98;
+}
+.icon:hover{
+	transition:ease .5s;
+	opacity: .3;
 }
 /*////////////////////////////aboutpage////////////////*/
 .aboutMe{
@@ -380,6 +393,174 @@ p{
 	background-color: #1aaa98;
 	color:black;
 }
+
+.modal_btn
+{
+	width: 100%;
+	height: 100%;
+	border:none;
+	text-decoration:none;
+	font-family: "program", sans-serif;
+	font-size:14pt;
+	visibility: visible;
+	position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+	padding:50px;
+	opacity:0;
+	background-color: white;
+	color:black;
+}
+
+#thumbnail1
+{
+	background: url('../images/sketches/1.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail2
+{
+	background: url('../images/sketches/2.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+
+}
+
+#thumbnail3
+{
+	background: url('../images/sketches/3.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail4
+{
+	background: url('../images/sketches/4.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail5
+{
+	background: url('../images/sketches/5.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail6
+{
+	background: url('../images/sketches/6.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail7
+{
+	background: url('../images/sketches/7.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail8
+{
+	background: url('../images/sketches/8.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail9
+{
+	background: url('../images/sketches/9.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail10
+{
+	background: url('../images/sketches/10.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+#thumbnail11
+{
+	background: url('../images/sketches/11.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail12
+{
+	background: url('../images/sketches/12.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail13
+{
+	background: url('../images/sketches/13.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail14
+{
+	background: url('../images/sketches/14.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail15
+{
+	background: url('../images/sketches/15.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail16
+{
+	background: url('../images/sketches/16.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail17
+{
+	background: url('../images/sketches/17.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail18
+{
+	background: url('../images/sketches/18.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail19
+{
+	background: url('../images/sketches/19.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+#thumbnail20
+{
+	background: url('../images/sketches/20.png') no-repeat top left;
+	background-size: 300px 300px;
+	z-index:0;
+}
+
+.modal_btn:hover
+{
+	opacity:0.7;
+	transition:ease .5s;
+	cursor:pointer;
+}
+
+
 /*//////////////////////////////indivportfoliopages/////////////////////////////*/
 .portfolioCover{
 	position:relative;
