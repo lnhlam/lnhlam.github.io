@@ -24,7 +24,7 @@ h1{
 p{
 	font-family: "program", sans-serif;
 	font-size: 10pt;
-	font-kerning: auto;
+	font-kerning: 1.2;
 	line-height: 1.25;		
 }
 
