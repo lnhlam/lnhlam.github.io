@@ -25,6 +25,7 @@ p{
 	font-family: "program", sans-serif;
 	font-size: 10pt;
 	font-kerning: auto;
+	line-height: 30px;		
 }
 
 .reel{
@@ -159,7 +160,6 @@ p{
 	margin: 298px 0px 0px 0px;
 	padding-bottom: 0px;
 	height: auto;
-	line-height: 30px;	
 	align-content: center;
 	background-color: white;
 	border-top:solid thin #1aaa98;
