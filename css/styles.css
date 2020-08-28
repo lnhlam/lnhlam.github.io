@@ -193,10 +193,11 @@ p{
 	color: #1aaa98;
 }
 .icon:hover{
-	height: 104px;
-	top:-4px;
 	transition:ease .5s;
 	opacity: .3;
+	height: 104px;
+	top:-4px;
+	text-shadow: 0px 3px 5px lightgray;
 }
 /*////////////////////////////aboutpage////////////////*/
 .aboutMe{
