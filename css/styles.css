@@ -191,7 +191,6 @@ p{
 	height: 100px;
 	width: 50px;
 	color: #1aaa98;
-	position: relative;
 }
 .icon:hover{
 	transition:ease .5s;
