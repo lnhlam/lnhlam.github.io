@@ -193,6 +193,7 @@ p{
 	color: #1aaa98;
 }
 .icon:hover{
+	height: 110px;
 	transition:ease .5s;
 	opacity: .3;
 }
