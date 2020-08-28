@@ -196,8 +196,8 @@ p{
 .icon:hover{
 	transition:ease .5s;
 	/*opacity: .3;*/
-	height: 104px;
-	top:-4px;
+        height: 103px;
+	transform:translateY( -3px);
 }
 /*////////////////////////////aboutpage////////////////*/
 .aboutMe{
