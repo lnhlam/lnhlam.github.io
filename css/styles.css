@@ -115,7 +115,7 @@ p{
 }
 /*/////////////////////rightside nav bar/////////////////////*/
 .navbar{
-	position: relative;
+	position: static;
 	background-color: white;
 	height:37px;
 	width:300px;
