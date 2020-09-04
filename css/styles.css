@@ -36,7 +36,7 @@ p{
 .nav{
 	font-size: 16px;
 	height: 145px;
-	position:fixed;
+	position:static;
    	margin: 0;
    	padding: 0;
 	left:0;
@@ -115,7 +115,7 @@ p{
 }
 /*/////////////////////rightside nav bar/////////////////////*/
 .navbar{
-	position: static;
+	position: relative;
 	background-color: white;
 	height:37px;
 	width:300px;
