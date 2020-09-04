@@ -190,8 +190,7 @@ p{
 	margin: 5px 5px;
 	height: 100px;
 	width: 50px;
-	color: #1aaa98;
-	background-color: white;
+	color: white;
 }
 .icon:hover{
 	transition:ease .5s;
