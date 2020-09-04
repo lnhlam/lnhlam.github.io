@@ -36,7 +36,7 @@ p{
 .nav{
 	font-size: 16px;
 	height: 145px;
-	position:static;
+	position: relative;
    	margin: 0;
    	padding: 0;
 	left:0;
