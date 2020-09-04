@@ -290,7 +290,7 @@ p{
 .gallery{
 	position:relative;
 	overflow: hidden;
-	margin: 145px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 70px 0px 100px 0px;
 	height: auto;
 	width: 100%;
@@ -329,7 +329,7 @@ p{
 .portfolio{
 	position:relative;
 	overflow: hidden;
-	margin: 145px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 70px 0px 100px 0px;
 	height: auto;
 	width: 100%;
@@ -580,7 +580,7 @@ p{
 .contactForm {
 	position:relative;
 	overflow: visible;
-	margin: 145px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding-top: 70px;
 	padding-bottom: 100px;
 	height: auto;
