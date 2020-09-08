@@ -354,6 +354,8 @@ p{
 	
 }
 .note2:hover{
+
+ 	box-shadow: 1px 3px 15px 5px inset;
 	opacity:.7;
 	transition:ease .5s;
 }
@@ -370,7 +372,7 @@ p{
 	height:200px;
 	width:200px;
 	opacity:0;
-	background-color: white;
+	/*background-color: white;*/
 	color:black;
 }
 .note3:hover{
