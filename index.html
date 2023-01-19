@@ -65,7 +65,22 @@
 	</div>
 	-->				
 	<div class="aboutMeImage">
-				<img src="images/avatar.png" width="214" height="305" alt="Lenny"/>
+				<!--<img src="images/avatar.png" width="214" height="305" alt="Lenny"/>-->
+					<div id="player-container" style="width: 250px; height: 350px;"></div>
+					<script>
+						new spine.SpinePlayer("player-container", {
+							jsonUrl: "https://lnhlam.art/spine/Rose.json",
+							atlasUrl: "https://lnhlam.art/spine/Rose.atlas",
+							premultipliedAlpha: false, // Disable premultiplied alpha rendering
+							alpha: true, // Enable player translucency
+							backgroundColor: "#00000000", // Background is fully transparent
+							animation: "Idle", // Player will start with "" animation
+							showControls: false, // Hide the player controls
+
+						});
+					</script>
+
+						</div>
 			  </div>
 		<div class="aboutMe">
 
@@ -84,21 +99,7 @@
 	</div>
 	<br>
 
-	<div id="player-container" style="width: 640px; height: 480px;"></div>
-	<script>
-		new spine.SpinePlayer("player-container", {
-			jsonUrl: "https://lnhlam.art/spine/Rose.json",
-			atlasUrl: "https://lnhlam.art/spine/Rose.atlas",
-			premultipliedAlpha: false, // Disable premultiplied alpha rendering
-			alpha: true, // Enable player translucency
-			backgroundColor: "#00000000", // Background is fully transparent
-			animation: "Idle", // Player will start with "" animation
-			showControls: false, // Hide the player controls
 
-		});
-	</script>
-
-		</div>
 
 <div class="footer">
 	<a class = "icon" href="https://www.instagram.com/lnhlam.art" target="_blank">
