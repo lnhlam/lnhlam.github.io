@@ -89,27 +89,13 @@
 		new spine.SpinePlayer("player-container", {
 			jsonUrl: "https://lnhlam.art/spine/Rose.json",
 			atlasUrl: "https://lnhlam.art/spine/Rose.atlas",
+			premultipliedAlpha: false, // Disable premultiplied alpha rendering
+			alpha: true, // Enable player translucency
+			backgroundColor: "#00000000", // Background is fully transparent
+			animation: "Idle", // Player will start with "" animation
 		});
 	</script>
-	<script>
-		new spine.SpinePlayer("player-container", {
-		 ...
-		 premultipliedAlpha: false // Disable premultiplied alpha rendering
-		});
-	</script>
-	<script>
-		new spine.SpinePlayer("player-container", {
-		 ...
-		 alpha: true, // Enable player translucency
-		 backgroundColor: "#00000000" // Background is fully transparent
-		});
-	</script>
-	<script>
-		new spine.SpinePlayer("player-container", {
-		 ...
-		 animation: "Idle" // Player will start with "walk" animation
-		});
-	</script>
+
 		</div>
 
 <div class="footer">
