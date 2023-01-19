@@ -97,6 +97,19 @@
 		 premultipliedAlpha: false // Disable premultiplied alpha rendering
 		});
 	</script>
+	<script>
+		new spine.SpinePlayer("player-container", {
+		 ...
+		 alpha: true, // Enable player translucency
+		 backgroundColor: "#00000000" // Background is fully transparent
+		});
+	</script>
+	<script>
+		new spine.SpinePlayer("player-container", {
+		 ...
+		 animation: "Idle" // Player will start with "walk" animation
+		});
+	</script>
 		</div>
 
 <div class="footer">
