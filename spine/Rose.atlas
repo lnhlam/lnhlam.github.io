@@ -1,6 +1,7 @@
 Rose.png
 size:2048,2048
 filter:Linear,Linear
+pma:true
 Enemies/Labcoat/Spine Labcoat/Spine - Labcoat Item
 bounds:1847,528,41,51
 Rose/Spine Rose/Rose Back Arm/Rose Back Arm0001
