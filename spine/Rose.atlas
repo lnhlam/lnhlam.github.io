@@ -1,0 +1,95 @@
+Rose.png
+size:2048,2048
+filter:Linear,Linear
+Enemies/Labcoat/Spine Labcoat/Spine - Labcoat Item
+bounds:1847,528,41,51
+Rose/Spine Rose/Rose Back Arm/Rose Back Arm0001
+bounds:1885,469,35,57
+Rose/Spine Rose/Rose Back Forearm/Rose Back Forearm0001
+bounds:1963,1275,52,60
+Rose/Spine Rose/Rose Back Leg/Rose Back Leg
+bounds:1906,803,40,67
+Rose/Spine Rose/Rose Back Leg/Rose Back Shoe
+bounds:513,870,71,39
+Rose/Spine Rose/Rose Face/Rose Face0001
+bounds:548,1000,92,87
+Rose/Spine Rose/Rose Face/Rose Face0002
+bounds:548,911,92,87
+Rose/Spine Rose/Rose Face/Rose Face0003
+bounds:1701,652,92,87
+Rose/Spine Rose/Rose Face/Rose Face0004
+bounds:1701,563,92,87
+Rose/Spine Rose/Rose Face/Rose Face0005
+bounds:1795,652,92,87
+Rose/Spine Rose/Rose Face/Rose Face0006
+bounds:1869,1248,92,87
+Rose/Spine Rose/Rose Face/Rose Face0007
+bounds:1869,1159,92,87
+Rose/Spine Rose/Rose Face/Rose Face0008
+bounds:1869,1070,92,87
+Rose/Spine Rose/Rose Front Arm/Rose Front Arm0001
+bounds:1847,470,36,56
+Rose/Spine Rose/Rose Front Forearm/Rose Front Forearm0001
+bounds:1944,999,47,69
+Rose/Spine Rose/Rose Front Forearm/Rose Front Forearm0002
+bounds:1847,581,47,69
+Rose/Spine Rose/Rose Front Leg/Rose Front Leg
+bounds:1889,682,43,72
+Rose/Spine Rose/Rose Front Leg/Rose Front Shoe
+bounds:1869,872,64,36
+Rose/Spine Rose/Rose Head/Rose Back Hair
+bounds:409,948,137,139
+Rose/Spine Rose/Rose Head/Rose Hair Left Bottom
+bounds:586,882,46,27
+Rose/Spine Rose/Rose Head/Rose Hair Left Top
+bounds:1869,999,73,69
+Rose/Spine Rose/Rose Head/Rose Hair Right Bottom
+bounds:513,917,27,29
+Rose/Spine Rose/Rose Head/Rose Hair Right Top
+bounds:1869,910,52,87
+Rose/Spine Rose/Rose Head/Rose Head
+bounds:1701,741,125,126
+Rose/Spine Rose/Rose Torso/Rose Torso
+bounds:1828,756,76,111
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0001
+bounds:409,869,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0006
+bounds:409,869,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0002
+bounds:461,869,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0003
+bounds:1923,920,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0004
+bounds:1963,1196,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0005
+bounds:1963,1117,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0007
+bounds:1795,573,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0008
+bounds:1795,494,50,77
+_Held Items/Tazer Stick/Weapon - Tazer Stick0001
+bounds:648,869,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0002
+bounds:2,621,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0003
+bounds:1055,869,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0004
+bounds:1462,869,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0005
+bounds:2,153,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0006
+bounds:409,153,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0007
+bounds:816,2,405,466
+_Smears/smear_punch/smear_punch0001
+bounds:816,556,462,63
+_Smears/smear_punch/smear_punch0002
+bounds:816,491,462,63
+_Smears/smear_punch/smear_punch0003
+bounds:2,88,462,63
+_Smears/smear_throw/smear_throw0001
+bounds:2,1089,644,246
+_Smears/smear_throw/smear_throw0002
+bounds:409,621,644,246
+_Smears/smear_throw/smear_throw0003
+bounds:1055,621,644,246
