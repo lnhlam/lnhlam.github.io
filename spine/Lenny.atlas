@@ -1,0 +1,25 @@
+Lenny.png
+size:256,256
+filter:Linear,Linear
+Lenny Back Arm
+bounds:176,151,27,32
+Lenny Back Forearm
+bounds:138,57,41,58
+Lenny Back Leg
+bounds:205,180,43,62
+Lenny Back Shoe
+bounds:84,3,60,36
+Lenny Face
+bounds:134,185,69,57
+Lenny Front Arm
+bounds:205,136,40,42
+Lenny Front Forearm
+bounds:134,117,40,66
+Lenny Front Leg
+bounds:84,41,52,72
+Lenny Front Shoe
+bounds:181,103,62,31
+Lenny Head
+bounds:2,115,130,127
+Lenny Torso
+bounds:2,2,80,111
