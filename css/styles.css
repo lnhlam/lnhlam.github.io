@@ -310,7 +310,7 @@ p{
 	position:relative;
 	overflow: hidden;
 	margin: 0px 0px 0px 0px;
-	padding: 70px 0px 100px 0px;
+	padding: 70px 20px 100px;
 	height: auto;
 	width: 100%;
 	text-align: center;
@@ -590,6 +590,17 @@ p{
 	cursor:pointer;
 }
 
+.pbox {
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.pbox img {
+	width: 100%;
+}
+
 
 /*//////////////////////////////indivportfoliopages/////////////////////////////*/
 .portfolioCover{
@@ -663,3 +674,9 @@ input[type=submit]:hover {
     background-color: #1aaa98;
 }
 
+
+@media screen and (max-width: 646px) {
+	.navbar {
+		margin-top: 10px;
+	}
+}
