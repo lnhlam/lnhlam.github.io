@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* , *:before, *:after{ 
+     box-sizing:border-box; 
+     -moz-box-sizing:border-box; 
+     -webkit-box-sizing:border-box; 
+     -ms-box-sizing:border-box;
+   }
+
 body {
 	margin:0;
 	font-family: "program", sans-serif;
@@ -23,9 +30,21 @@ h1{
 }
 p{
 	font-family: "program", sans-serif;
-	font-size: 10pt;
+	font-size: 1rem;
 	font-kerning: 1.25;
 	line-height: 1.25;		
+}
+
+.homeVideo {
+	text-align: center; 
+	padding-bottom: 40px; 
+	width: 100%; 
+	height: auto;
+}
+
+.homeVideo video {
+	width: 100%;
+	height: auto;
 }
 
 .reel{
@@ -344,7 +363,8 @@ p{
 	text-align: center;
 	align-content: center;
 	height: auto;
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
 	margin: 0px auto;
 }
 .itemContainer2{
@@ -602,7 +622,8 @@ p{
 	overflow: visible;
 	padding: 20px;
 	height: 400px;
-	width: 400px;
+	width: 100%;
+	max-width: 400px;
 	text-align: left;
 	align-content: center;
 	background-color: white;
