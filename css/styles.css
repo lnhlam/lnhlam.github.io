@@ -45,6 +45,28 @@ p{
 .homeVideo video {
 	width: 100%;
 	height: auto;
+	padding: 5%;
+}
+
+video::-webkit-media-controls-panel {
+	background-image: none;
+}
+
+video::-webkit-media-controls-play-button, 
+video::-webkit-media-controls-fullscreen-button {
+  background-color: #1aaa98;
+  border-radius: 10%;
+  height: 70%;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+
+
+video::-webkit-media-controls-timeline {
+  background-color: #1aaa98;
+  margin-bottom: 0;
+  padding:0;
 }
 
 .reel{
@@ -680,3 +702,4 @@ input[type=submit]:hover {
 		margin-top: 10px;
 	}
 }
+
