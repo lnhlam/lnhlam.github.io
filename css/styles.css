@@ -54,19 +54,21 @@ video::-webkit-media-controls-panel {
 
 video::-webkit-media-controls-play-button, 
 video::-webkit-media-controls-fullscreen-button {
-  background-color: #1aaa98;
-  border-radius: 10%;
-  height: 70%;
-  width: auto;
-  margin-bottom: 10px;
+	background-color: #1aaa98;
+	border-radius: 10%;
+	height: 60%;
+	width: 5px;
+	margin: 0 10px 10px 0;
 }
 
-
+video::-webkit-media-controls-timeline-container {
+	color: #1aaa98;
+}
 
 video::-webkit-media-controls-timeline {
-  background-color: #1aaa98;
-  margin-bottom: 0;
-  padding:0;
+	background-color: #1aaa98;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 .reel{
