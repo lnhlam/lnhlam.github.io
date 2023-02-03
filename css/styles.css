@@ -63,6 +63,7 @@ p2{
 
 .homeVideo {
 	text-align: center; 
+	padding-top: 50px;
 	padding-bottom: 0px; 
 	width: 100%; 
 	height: auto;
@@ -131,6 +132,7 @@ video::-webkit-media-controls-timeline {
 	width:150px;
 	position:absolute;
 	text-shadow: 0px 3px 5px lightgray;
+	transition: ease-in-out .3s;
 }
 .homebtn {
 	float: right;
@@ -141,18 +143,25 @@ video::-webkit-media-controls-timeline {
 	overflow: hidden;
 	display: block;
 	font-size: 50px;
-	width: 200px;
+	width: 220px;
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
-	margin: 20px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	transition: ease-in-out .3s;
 }
 .homebtn:hover{
 	transition:ease .5s;
 	opacity:.7;
+	transition-property: scale;
+	scale: 97%;
+	transition: ease-in-out .3s;
 }
 .homebtnimg:hover{
 	transition:ease .5s;
 	opacity:.7;
+	transition-property: scale;
+	scale: 97%;
+	transition: ease-in-out .3s;
 }
 
 .homebtn2 {
@@ -413,6 +422,14 @@ video::-webkit-media-controls-timeline {
 .mainportfolio .itemContainer2 {
 	width: 300px;
 	height: 300px;
+	transition: ease-in-out .3s;
+	border-radius:10px;
+}
+.mainportfolio .itemContainer2:hover {
+	transition-property: scale;
+	scale: 97%;
+	transition: ease-in-out .3s;
+	
 }
 .itemThumbnail {
 	width: 100%;
@@ -424,10 +441,10 @@ video::-webkit-media-controls-timeline {
 	margin: 0 auto;
 }
 .note2:hover{
-
  	box-shadow: 1px 3px 15px 5px inset;
-	opacity:.7;
-	transition:ease .5s;
+	opacity: .5;
+	transition: ease-in-out .3s;
+	
 }
 .note2{
 	text-decoration:none;
@@ -444,6 +461,8 @@ video::-webkit-media-controls-timeline {
 	opacity:0;
 	/*background-color: white;*/
 	color:black;
+	transition: ease-in-out .3s;
+
 }
 .note3:hover{
 	opacity:.7;
