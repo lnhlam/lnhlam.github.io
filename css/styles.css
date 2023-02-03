@@ -1,5 +1,13 @@
 @charset "UTF-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 /* CSS Document */
+@font-face {
+	font-family: 'Asap', sans-serif;
+	src: url('https://lnhlam.art/fonts/Asap-Italic-VariableFont_wdth,wght.ttf') format('ttf'),
+		 url('https://lnhlam.art/fonts/Asap-VariableFont_wdth,wght.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+  }
 
 * , *:before, *:after{ 
      box-sizing:border-box; 
@@ -10,18 +18,21 @@
 
 body {
 	margin:0;
-	font-family: "program", sans-serif;
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
 	text-decoration: none;
 	background-color:#1aaa98;
 }
 h3{
-	font-family: "program", sans-serif;
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
 	font-size: 15pt;
 	font-weight: bold;
 	font-kerning: auto;
 }
 h1{
-	font-family: "program", sans-serif;
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
 	font-size: 35pt;
 	font-weight: bold;
 	font-kerning: auto;
@@ -29,7 +40,8 @@ h1{
 	
 }
 p{
-	font-family: "program", sans-serif;
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
 	font-size: 1rem;
 	font-kerning: 1.25;
 	line-height: 1.25;		
@@ -48,21 +60,10 @@ p{
 	padding: 5%;
 }
 
+
 video::-webkit-media-controls-panel {
-	background-image: none;
-}
-
-video::-webkit-media-controls-play-button, 
-video::-webkit-media-controls-fullscreen-button {
-	background-color: #1aaa98;
-	border-radius: 10%;
-	height: 60%;
-	width: 5px;
-	margin: 0 10px 10px 0;
-}
-
-video::-webkit-media-controls-timeline-container {
-	color: #1aaa98;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, .35), rgba(0, 0, 0, .1), rgba(0, 0, 0, .05), rgba(0, 0, 0, 0));
+	
 }
 
 video::-webkit-media-controls-timeline {
@@ -98,7 +99,7 @@ video::-webkit-media-controls-timeline {
 .homebtncontainer{
 	margin-top: 20px;
 	margin-left: 10px;
-	width:320px;
+	width:330px;
 	height:100px;
 	float: left;	
 	z-index:0;
@@ -107,22 +108,20 @@ video::-webkit-media-controls-timeline {
 }
 .homebtnimg {
 	float: left;
-	font-family: "program", sans-serif;
 	text-align: left;
 	text-decoration: none;
 	color: #1aaa98;
 	overflow: hidden;
 	display: block;
-	font-size: 50px;
 	width:150px;
 	position:absolute;
 	text-shadow: 0px 3px 5px lightgray;
 }
 .homebtn {
 	float: right;
-	font-family: "program", sans-serif;
 	text-align: right;
 	text-decoration: none;
+	font-weight: 900;
 	color: #1aaa98;
 	overflow: hidden;
 	display: block;
@@ -130,7 +129,7 @@ video::-webkit-media-controls-timeline {
 	width: 200px;
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
-	padding: 20px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 }
 .homebtn:hover{
 	transition:ease .5s;
@@ -161,7 +160,7 @@ video::-webkit-media-controls-timeline {
 	position: relative;
 	background-color: white;
 	height:auto;
-	width:300px;
+	width:310px;
 	margin-top: 50px;
 	float: right;
 	overflow:visible;
@@ -169,14 +168,13 @@ video::-webkit-media-controls-timeline {
 	z-index:0;
 	padding: 3px 10px 3px 10px;
 	border:#1aaa98 thin solid;
-	border-right:none;
+	border-right: none;
 	box-shadow: 0px 1px 15px -3px #AEC7D4;
 
 }
 
 .btn {
     float: left;
-	font-family: "program", sans-serif;
 	font-style: bold;
 	padding: 10px 8px 10px 8px;
 	text-decoration:none;
