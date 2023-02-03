@@ -47,6 +47,7 @@
   float: right;
   font-size: 50px;
   font-weight: bold;
+  line-height: 16px;
 }
 
 .close:hover {

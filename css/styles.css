@@ -15,20 +15,12 @@
      -webkit-box-sizing:border-box; 
      -ms-box-sizing:border-box;
    }
-
 body {
 	margin:0;
 	/* font-family: "program", sans-serif; */
 	font-family: 'Asap', sans-serif;
 	text-decoration: none;
 	background-color:#1aaa98;
-}
-h3{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
-	font-size: 15pt;
-	font-weight: bold;
-	font-kerning: auto;
 }
 h1{
 	/* font-family: "program", sans-serif; */
@@ -37,7 +29,21 @@ h1{
 	font-weight: bold;
 	font-kerning: auto;
 	color: #1aaa98;
-	
+}
+h2{
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
+	font-size: 35pt;
+	font-weight: bold;
+	font-kerning: auto;
+	color: #ffffff;
+}
+h3{
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+	font-kerning: auto;
 }
 p{
 	/* font-family: "program", sans-serif; */
@@ -46,10 +52,18 @@ p{
 	font-kerning: 1.25;
 	line-height: 1.25;		
 }
+p2{
+	/* font-family: "program", sans-serif; */
+	font-family: 'Asap', sans-serif;
+	font-size: 1rem;
+	font-kerning: 1.25;
+	line-height: 1.25;		
+	color:#ffffff
+}
 
 .homeVideo {
 	text-align: center; 
-	padding-bottom: 40px; 
+	padding-bottom: 0px; 
 	width: 100%; 
 	height: auto;
 }
@@ -57,7 +71,8 @@ p{
 .homeVideo video {
 	width: 100%;
 	height: auto;
-	padding: 5%;
+	padding: 0px;
+	padding-top: 20px;
 }
 
 
@@ -251,11 +266,11 @@ video::-webkit-media-controls-timeline {
 	display:inline-block;
 	position: static;
 	overflow: hidden;
-	margin-top: 10px;
 	padding:10px;	
 	height: 250px;
 	width: 270px;
 	text-align: left;
+	margin: 50px;
 }
 .aboutMeImage{
 	z-index:1;
@@ -371,7 +386,7 @@ video::-webkit-media-controls-timeline {
 	position:relative;
 	overflow: hidden;
 	margin: 0px 0px 0px 0px;
-	padding: 70px 0px 100px 0px;
+	padding: 70px 20px 100px;
 	height: auto;
 	width: 100%;
 	text-align: center;
@@ -402,6 +417,11 @@ video::-webkit-media-controls-timeline {
 .itemThumbnail {
 	width: 100%;
 	height: 100%;
+}
+.copybox {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 }
 .note2:hover{
 
