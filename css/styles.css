@@ -277,7 +277,7 @@ video::-webkit-media-controls-timeline {
 }
 /*////////////////////////////aboutpage////////////////*/
 .aboutMe{
-	position:relative;
+	position: relative;
 	overflow: visible;
 	height: auto;
 	width: 100%;
@@ -288,7 +288,7 @@ video::-webkit-media-controls-timeline {
 .aboutMeText{
 	display:inline-block;
 	position: static;
-	overflow: hidden;
+	overflow: visible;
 	padding:10px;	
 	height: 250px;
 	width: 270px;
