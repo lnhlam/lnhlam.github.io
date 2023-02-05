@@ -74,6 +74,8 @@ p2{
 	height: auto;
 	padding: 0px;
 	padding-top: 20px;
+	
+
 }
 
 
@@ -92,6 +94,17 @@ video::-webkit-media-controls-timeline {
 	width: 855px;
 	height: 482px;
 	margin:0 auto;
+}
+.reelAvatar{
+	z-index:-1;
+	position: relative;
+	overflow: visible;
+	height: 0px;
+	width: 0px;
+	right: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	top:-30px;
 }
 .nav{
 	font-size: 16px;
@@ -115,7 +128,8 @@ video::-webkit-media-controls-timeline {
 .homebtncontainer{
 	margin-top: 20px;
 	margin-left: 10px;
-	width:330px;
+	width:100%;
+	max-width:330px;
 	height:100px;
 	float: left;	
 	z-index:0;
@@ -142,8 +156,8 @@ video::-webkit-media-controls-timeline {
 	color: #1aaa98;
 	overflow: hidden;
 	display: block;
-	font-size: 50px;
-	width: 220px;
+	font-size: 3rem;
+	width: 100%;
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
 	margin: 10px 0px 0px 0px;
