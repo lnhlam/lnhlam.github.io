@@ -183,20 +183,14 @@ video::-webkit-media-controls-timeline {
 
 	transition: ease-in-out .3s;
 }
-.homebtn:hover{
+.homebtncontainer:hover{
 	transition:ease .5s;
 	opacity:.7;
 	transition-property: scale;
 	scale: 97%;
 	transition: ease-in-out .3s;
 }
-.homebtnimg:hover{
-	transition:ease .5s;
-	opacity:.7;
-	transition-property: scale;
-	scale: 97%;
-	transition: ease-in-out .3s;
-}
+
 
 
 /*/////////////////////rightside nav bar/////////////////////*/
