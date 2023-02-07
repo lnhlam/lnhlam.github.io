@@ -1,0 +1,110 @@
+Angel.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Angel/Spine Angel/Angel Back Forearm/Spine - Angel Back Forearm0001
+bounds:1657,1397,146,170
+Angel/Spine Angel/Angel Back Forearm/Spine - Angel Back Forearm0002
+bounds:1805,1391,146,170
+Angel/Spine Angel/Angel Back Forearm/Spine - Angel Back Forearm0003
+bounds:2,1329,146,170
+Angel/Spine Angel/Angel Back Forearm/Spine - Angel Back Forearm0004
+bounds:150,1326,146,170
+Angel/Spine Angel/Angel Face/Spine - Angel Face0001
+bounds:1945,1563,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0002
+bounds:2,1501,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0003
+bounds:83,1501,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0004
+bounds:164,1498,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0005
+bounds:245,1498,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0006
+bounds:326,1498,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0007
+bounds:407,1498,79,83
+Angel/Spine Angel/Angel Face/Spine - Angel Face0008
+bounds:488,1498,79,83
+Angel/Spine Angel/Angel Front Forearm/Spine - Angel Front Forearm0001
+bounds:298,1314,160,182
+Angel/Spine Angel/Angel Front Forearm/Spine - Angel Front Forearm0002
+bounds:460,1310,160,182
+Angel/Spine Angel/Angel Front Forearm/Spine - Angel Front Forearm0003
+bounds:622,1307,160,182
+Angel/Spine Angel/Angel Front Forearm/Spine - Angel Front Forearm0004
+bounds:784,1288,160,182
+Angel/Spine Angel/Angel Front Forearm/Spine - Angel Front Forearm0005
+bounds:946,1277,160,182
+Angel/Spine Angel/Angel Jets/Spine - Angel Jets0001
+bounds:1337,1208,292,203
+Angel/Spine Angel/Angel Jets/Spine - Angel Jets0002
+bounds:1631,1186,292,203
+Angel/Spine Angel/Angel Jets/Spine - Angel Jets0003
+bounds:2,1121,292,203
+Angel/Spine Angel/Angel Jets/Spine - Angel Jets0004
+bounds:296,1105,292,203
+Angel/Spine Angel/Spine - Angel Back Arm
+bounds:1135,1453,109,128
+Angel/Spine Angel/Spine - Angel Back Leg
+bounds:796,1484,64,97
+Angel/Spine Angel/Spine - Angel Cape
+bounds:1108,1235,227,192
+Angel/Spine Angel/Spine - Angel Chestplate
+bounds:1408,1413,247,154
+Angel/Spine Angel/Spine - Angel Front Arm
+bounds:1038,1461,95,120
+Angel/Spine Angel/Spine - Angel Front Leg
+bounds:730,1491,64,90
+Angel/Spine Angel/Spine - Angel Hair
+bounds:862,1472,174,109
+Angel/Spine Angel/Spine - Angel Head
+bounds:1246,1429,160,152
+Angel/Spine Angel/Spine - Angel Hip
+bounds:45,1586,142,60
+Angel/Spine Angel/Spine - Angel Torso
+bounds:569,1494,159,87
+Enemies/Labcoat/Spine Labcoat/Spine - Labcoat Item
+bounds:2,1595,41,51
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0001
+bounds:1581,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0006
+bounds:1581,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0002
+bounds:1633,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0003
+bounds:1685,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0004
+bounds:1737,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0005
+bounds:1789,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0007
+bounds:1841,1569,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0008
+bounds:1893,1569,50,77
+_Held Items/Tazer Stick/Weapon - Tazer Stick0001
+bounds:648,519,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0002
+bounds:1055,470,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0003
+bounds:1462,470,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0004
+bounds:2,271,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0005
+bounds:409,51,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0006
+bounds:816,2,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0007
+bounds:1223,2,405,466
+_Smears/smear_punch/smear_punch0001
+bounds:189,1583,462,63
+_Smears/smear_punch/smear_punch0002
+bounds:653,1583,462,63
+_Smears/smear_punch/smear_punch0003
+bounds:1117,1583,462,63
+_Smears/smear_throw/smear_throw0001
+bounds:590,987,644,246
+_Smears/smear_throw/smear_throw0002
+bounds:1236,938,644,246
+_Smears/smear_throw/smear_throw0003
+bounds:2,739,644,246
