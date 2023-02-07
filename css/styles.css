@@ -168,6 +168,7 @@ video::-webkit-media-controls-timeline {
 	position:relative;
 	text-shadow: 0px 3px 5px lightgray;
 }
+
 .homebtn {
 
 	text-align: center;
@@ -196,14 +197,14 @@ video::-webkit-media-controls-timeline {
 .navbar{
 	position: relative;
 	background-color: white;
-	height:30px;
-	width:250px;
+	height:50px;
+	width:265px;
 	margin-top: 10px;
 	float: inline-end;
 	overflow: visible;
 	border-radius: 5px;
 	z-index:0;
-	padding: 3px 10px 3px 10px;
+	padding: 13px 10px 3px 10px;
 	border:#1aaa98 thin solid;
 	box-shadow: 0px 1px 15px -3px #AEC7D4;
 	
@@ -216,16 +217,23 @@ video::-webkit-media-controls-timeline {
 .btn {
     
 	font-style: bold;
-	padding: 10px 8px 10px 8px;
+	padding: 6px 8px 8px 8px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	overflow:hidden;
 	font-size: 17px;
+	border:#1aaa98 thin solid;
+	margin: 2px;
+	border-radius: 5px;
+	background-color:#1aaa98;
 }
 .btn:hover {
 	color:#1aaa98;
 	text-shadow: 0px 0px 5px #9BDDFF;
 	transition:ease .5s;
+	background-color:white;
+	font-weight: bolder;
+	
 }
 
 
@@ -427,7 +435,7 @@ video::-webkit-media-controls-timeline {
 .itemContainer2{
 	position:relative;
 	display:inline-block;
-	margin:10px;
+
 }
 
 .mainportfolio .itemContainer2 {
@@ -435,6 +443,7 @@ video::-webkit-media-controls-timeline {
 	height: 300px;
 	transition: ease-in-out .3s;
 	border-radius:10px;
+	margin:10px;
 }
 .mainportfolio .itemContainer2:hover {
 	transition-property: scale;
@@ -442,17 +451,7 @@ video::-webkit-media-controls-timeline {
 	transition: ease-in-out .3s;
 	
 }
-.portfolioBox .itemContainer2 {
-	width: 80px;
-	height: 80px;
-	transition: ease-in-out .3s;
-}
-.portfolioBox .itemContainer2:hover {
-	transition-property: scale;
-	scale: 110%;
-	transition: ease-in-out .3s;
-	opacity: 50%;
-}
+
 
 .itemThumbnail {
 	width: 100%;
@@ -488,11 +487,28 @@ video::-webkit-media-controls-timeline {
 
 }
 
+.portfolioBox .itemContainer2 {
+	width: 60px;
+	height: 60px;
+	transition: ease-in-out .3s;
+	margin: 20px;
 
+
+}
+.portfolioBox .itemContainer2 img {
+	width: 60px;
+	height: 60px;
+}
+
+.portfolioBox .itemContainer2:hover {
+	transition-property: scale;
+	scale: 110%;
+	transition: ease-in-out .3s;
+	opacity: 80%;
+	transform: rotate(375deg);
+}
 .note3{
 	text-decoration:none;
-	font-family: "program", sans-serif;
-	font-size:14pt;
 	visibility: visible;
 	position:absolute;
     left:0px;
@@ -675,7 +691,7 @@ video::-webkit-media-controls-timeline {
 	width: 100%;
 	height: auto;
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 .pbox img {
