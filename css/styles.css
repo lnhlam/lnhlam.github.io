@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 /* CSS Document */
-@font-face {
-	font-family: 'Asap', sans-serif;
+/* @font-face {
+	font-family: 'program', sans-serif;
 	src: url('https://lnhlam.art/fonts/Asap-Italic-VariableFont_wdth,wght.ttf') format('ttf'),
 		 url('https://lnhlam.art/fonts/Asap-VariableFont_wdth,wght.ttf') format('ttf');
-	font-weight: normal;
-	font-style: normal;
-  }
+	font-weight: 400,700;
+	font-style: normal,italic;
+  } */
 
 * , *:before, *:after{ 
      box-sizing:border-box; 
@@ -17,44 +17,44 @@
    }
 body {
 	margin:0;
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	text-decoration: none;
 	background-color:#1aaa98;
 }
 h1{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	font-size: 35pt;
 	font-weight: bold;
 	font-kerning: auto;
 	color: #1aaa98;
 }
 h2{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	font-size: 35pt;
 	font-weight: bold;
 	font-kerning: auto;
 	color: #ffffff;
 }
 h3{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	font-size: 15pt;
 	font-weight: bold;
 	font-kerning: auto;
 }
 p{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	font-size: 1rem;
 	font-kerning: 1.25;
 	line-height: 1.25;		
 }
 p2{
-	/* font-family: "program", sans-serif; */
-	font-family: 'Asap', sans-serif;
+	font-family: "program", sans-serif;
+	/* font-family: 'Asap', sans-serif; */
 	font-size: 1rem;
 	font-kerning: 1.25;
 	line-height: 1.25;		
@@ -173,11 +173,11 @@ video::-webkit-media-controls-timeline {
 
 	text-align: center;
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: 700;
 	color: #1aaa98;
 	overflow: visible;
 	display: block;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
@@ -197,7 +197,7 @@ video::-webkit-media-controls-timeline {
 .navbar{
 	position: relative;
 	background-color: white;
-	height:50px;
+	height:47px;
 	width:265px;
 	margin-top: 10px;
 	float: inline-end;
@@ -215,9 +215,7 @@ video::-webkit-media-controls-timeline {
 }
 
 .btn {
-    
-	font-style: bold;
-	padding: 6px 8px 8px 8px;
+	padding: 6px 8px 6px 8px;
 	text-decoration: none;
 	color: white;
 	overflow:hidden;
@@ -226,13 +224,13 @@ video::-webkit-media-controls-timeline {
 	margin: 2px;
 	border-radius: 5px;
 	background-color:#1aaa98;
+	font-weight:500;
 }
 .btn:hover {
 	color:#1aaa98;
 	text-shadow: 0px 0px 5px #9BDDFF;
 	transition:ease .5s;
 	background-color:white;
-	font-weight: bolder;
 	
 }
 
@@ -435,14 +433,14 @@ video::-webkit-media-controls-timeline {
 .itemContainer2{
 	position:relative;
 	display:inline-block;
-
+	max-width: 100%;
 }
 
 .mainportfolio .itemContainer2 {
 	width: 300px;
-	height: 300px;
+
+	height: auto;
 	transition: ease-in-out .3s;
-	border-radius:10px;
 	margin:10px;
 }
 .mainportfolio .itemContainer2:hover {
@@ -470,7 +468,6 @@ video::-webkit-media-controls-timeline {
 }
 .note2{
 	text-decoration:none;
-	font-family: "program", sans-serif;
 	font-size:14pt;
 	visibility: visible;
 	position:absolute;
@@ -527,7 +524,6 @@ video::-webkit-media-controls-timeline {
 	height: 100%;
 	border:none;
 	text-decoration:none;
-	font-family: "program", sans-serif;
 	font-size:14pt;
 	visibility: visible;
 	position:absolute;
