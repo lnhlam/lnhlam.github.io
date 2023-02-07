@@ -155,6 +155,7 @@ video::-webkit-media-controls-timeline {
 	margin-right: auto;
 	position:relative;
 	align-items: center;
+	transition: ease-in-out .3s;
 
 }
 .homebtnimg {
@@ -166,7 +167,6 @@ video::-webkit-media-controls-timeline {
 	width:150px;
 	position:relative;
 	text-shadow: 0px 3px 5px lightgray;
-	transition: ease-in-out .3s;
 }
 .homebtn {
 
@@ -181,14 +181,13 @@ video::-webkit-media-controls-timeline {
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
 
-	transition: ease-in-out .3s;
 }
 .homebtncontainer:hover{
-	transition:ease .5s;
+
 	opacity:.7;
-	transition-property: scale;
+	
 	scale: 97%;
-	transition: ease-in-out .3s;
+	transition: ease-in .3s;
 }
 
 
