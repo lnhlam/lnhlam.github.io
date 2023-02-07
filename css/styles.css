@@ -228,9 +228,7 @@ video::-webkit-media-controls-timeline {
 	transition:ease .5s;
 }
 
-.slideshowContainer{
-	
-}
+
 /*///////////////////////homepagetext////////////////////*/
 .mainInfo{
 	position:relative;
@@ -682,6 +680,16 @@ video::-webkit-media-controls-timeline {
 
 .pbox img {
 	width: 100%;
+}
+
+
+.characterContainer{
+	position: relative;
+	overflow: visible;
+	align-content: center;
+	width: 100%;
+	max-width: 900px;
+	margin: 0px auto;
 }
 
 

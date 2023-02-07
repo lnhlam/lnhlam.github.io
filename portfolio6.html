@@ -51,8 +51,13 @@
 		<div class="portfolioBox">
 			<div class="itemContainer2" >
 				<a class = "itemThumbnail" >
-					<img src="images/portfolio-icon-01.png" width="80px" height="80px" alt="wtfisalinh"/></a>
-					<a href="portfolio1.html" class="note3"></a>
+					<img src="images/portfolio-icon-06.png" width="80px" height="80px" alt="wtfisalinh">
+					<a href="portfolio6.html" class="note3"></a>
+			</div>	
+			<div class="itemContainer2" >
+				<a class = "itemThumbnail" >
+					<img src="images/portfolio-icon-03.png" width="80px" height="80px" alt="wtfisalinh"/></a>
+					<a href="portfolio3.html" class="note3"></a>
 			</div>	
 			<div class="itemContainer2" >
 				<a class = "itemThumbnail" >
@@ -61,9 +66,9 @@
 			</div>	
 			<div class="itemContainer2" >
 				<a class = "itemThumbnail" >
-					<img src="images/portfolio-icon-03.png" width="80px" height="80px" alt="wtfisalinh"/></a>
-					<a href="portfolio3.html" class="note3"></a>
-			</div>	
+					<img src="images/portfolio-icon-01.png" width="80px" height="80px" alt="wtfisalinh"/></a>
+					<a href="portfolio1.html" class="note3"></a>
+			</div>
 			<div class="itemContainer2" >
 				<a class = "itemThumbnail" >
 					<img src="images/portfolio-icon-04.png" width="80px" height="80px" alt="wtfisalinh"/></a>
@@ -74,16 +79,11 @@
 					<img src="images/portfolio-icon-05.png" width="80px" height="80px" alt="wtfisalinh"/></a>
 					<a href="portfolio5.html" class="note3"></a>
 			</div>	
-			<div class="itemContainer2" >
-				<a class = "itemThumbnail" >
-					<img src="images/portfolio-icon-06.png" width="80px" height="80px" alt="wtfisalinh">
-					<a href="portfolio6.html" class="note3"></a>
-			</div>	
 		</div>
 		
 		<!--Portfolio nav-->
 	
-		<h1>Cyber Security and Awareness Fair</h1>
+		<h1>Underling Uprising</h1>
 		<i>
 			<p>Branding 
 			<br>Commission
@@ -108,22 +108,77 @@
 
 		<div class="portfoliobox">
 			<div class="pbox" >
+				<div class="iframeContainer">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/9gP6tJpoxf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<br>
+			</div>	
+
+			<div class="pbox" >
                 <img src="images/portfolio/portfolio6/pbig6.png" alt=""/>
 			</div>
-			
-		<div id="player-container" style="width: 200px; height: 300px;"></div>
-			<script>
-			new spine.SpinePlayer("player-container", {
-				jsonUrl: "https://lnhlam.art/spine/Rose.json",
-				atlasUrl: "https://lnhlam.art/spine/Rose.atlas",
-				premultipliedAlpha: false, // Disable premultiplied alpha rendering
-				alpha: true, // Enable player translucency
-				backgroundColor: "#00000000", // Background is fully transparent
-				animation: "Watching", // Player will start with "" animation
-				showControls: false, // Hide the player controls
-			});
-			</script>
 
+			<div class="pbox">
+				<div class="characterContainer">
+				<div id="player-container"style= "width: 100%; height: auto; "></div>
+				<script>
+				new spine.SpinePlayer("player-container", {
+					jsonUrl: "https://lnhlam.art/spine/Rose.json",
+					atlasUrl: "https://lnhlam.art/spine/Rose.atlas",
+					premultipliedAlpha: false, // Disable premultiplied alpha rendering
+					alpha: true, // Enable player translucency
+					backgroundColor: "#00000000", // Background is fully transparent
+					animation: "Idle", // Player will start with "" animation
+					showControls: false, // Hide the player controls
+				});
+				</script>
+				</div>
+
+				<div class="characterContainer">
+				<div id="player-container"></div>
+					<script>
+					new spine.SpinePlayer("player-container", {
+						jsonUrl: "https://lnhlam.art/spine/Angel.json",
+						atlasUrl: "https://lnhlam.art/spine/Angel.atlas",
+						premultipliedAlpha: true, // Disable premultiplied alpha rendering
+						alpha: true, // Enable player translucency
+						backgroundColor: "#00000000", // Background is fully transparent
+						animation: "Idle", // Player will start with "" animation
+						showControls: false, // Hide the player controls
+					});
+					</script>
+				</div>	
+
+				<div class="characterContainer">
+				<div id="player-container"></div>
+					<script>
+					new spine.SpinePlayer("player-container", {
+						jsonUrl: "https://lnhlam.art/spine/Deckster.json",
+						atlasUrl: "https://lnhlam.art/spine/Deckster.atlas",
+						premultipliedAlpha: true, // Disable premultiplied alpha rendering
+						alpha: true, // Enable player translucency
+						backgroundColor: "#00000000", // Background is fully transparent
+						animation: "Idle", // Player will start with "" animation
+						showControls: false, // Hide the player controls
+					});
+					</script>
+				</div>
+
+				<div class="characterContainer">
+				<div id="player-container"></div>
+					<script>
+					new spine.SpinePlayer("player-container", {
+						jsonUrl: "https://lnhlam.art/spine/Boogie.json",
+						atlasUrl: "https://lnhlam.art/spine/Boogie.atlas",
+						premultipliedAlpha: true, // Disable premultiplied alpha rendering
+						alpha: true, // Enable player translucency
+						backgroundColor: "#00000000", // Background is fully transparent
+						animation: "Idle", // Player will start with "" animation
+						showControls: false, // Hide the player controls
+					});
+					</script>
+				</div>
+			</div>
 
 			<div class="pbox" >
                 <img src="images/portfolio/portfolio6/pbig62.gif" alt=""/>
