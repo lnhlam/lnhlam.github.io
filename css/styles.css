@@ -692,7 +692,11 @@ video::-webkit-media-controls-timeline {
 	margin: 0px auto;
 }
 
-
+.pVideo {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
 /*//////////////////////////////indivportfoliopages/////////////////////////////*/
 .portfolioCover{
 	position:relative;
