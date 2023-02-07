@@ -26,7 +26,7 @@ h1{
 	font-family: "program", sans-serif;
 	/* font-family: 'Asap', sans-serif; */
 	font-size: 35pt;
-	font-weight: bold;
+	font-weight: 700;
 	font-kerning: auto;
 	color: #1aaa98;
 }
@@ -34,7 +34,7 @@ h2{
 	font-family: "program", sans-serif;
 	/* font-family: 'Asap', sans-serif; */
 	font-size: 35pt;
-	font-weight: bold;
+	font-weight: 700;
 	font-kerning: auto;
 	color: #ffffff;
 }
@@ -42,7 +42,7 @@ h3{
 	font-family: "program", sans-serif;
 	/* font-family: 'Asap', sans-serif; */
 	font-size: 15pt;
-	font-weight: bold;
+	font-weight: 700;
 	font-kerning: auto;
 }
 p{
@@ -50,7 +50,8 @@ p{
 	/* font-family: 'Asap', sans-serif; */
 	font-size: 1rem;
 	font-kerning: 1.25;
-	line-height: 1.25;		
+	line-height: 1.25;
+	font-weight: 400;		
 }
 p2{
 	font-family: "program", sans-serif;
@@ -58,7 +59,8 @@ p2{
 	font-size: 1rem;
 	font-kerning: 1.25;
 	line-height: 1.25;		
-	color:#ffffff
+	color:#ffffff;
+	font-weight: 400;
 }
 
 .homeVideo {
