@@ -2,7 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 /* CSS Document */
 /* @font-face {
-	font-family: 'program', sans-serif;
+	font-family: 'Asap', sans-serif;
 	src: url('https://lnhlam.art/fonts/Asap-Italic-VariableFont_wdth,wght.ttf') format('ttf'),
 		 url('https://lnhlam.art/fonts/Asap-VariableFont_wdth,wght.ttf') format('ttf');
 	font-weight: 400,700;
@@ -42,7 +42,7 @@ h3{
 	font-family: "program", sans-serif;
 	/* font-family: 'Asap', sans-serif; */
 	font-size: 15pt;
-	font-weight: 700;
+	font-weight: 900;
 	font-kerning: auto;
 }
 p{
@@ -169,6 +169,7 @@ video::-webkit-media-controls-timeline {
 	width:150px;
 	position:relative;
 	text-shadow: 0px 3px 5px lightgray;
+	transition: ease-in-out .2s;
 }
 
 .homebtn {
@@ -176,23 +177,28 @@ video::-webkit-media-controls-timeline {
 	text-align: center;
 	text-decoration: none;
 	font-weight: 700;
-	color: #1aaa98;
+	color: black;
 	overflow: visible;
 	display: block;
 	font-size: 3.5rem;
-	
 	position: relative;
 	text-shadow: 0px 3px 5px lightgray;
+	transition: ease-in-out .3s;
 
 }
-.homebtncontainer:hover{
+/* .homebtncontainer:hover{
 
-	opacity:.7;
-	
 	scale: 97%;
 	transition: ease-in .3s;
+} */
+.homebtn:hover{
+	color:#1aaa98;
+	transition: ease-in-out .3s;
 }
-
+.homebtnimg:hover{
+	transform: rotate(20deg);
+	transition: ease-in-out .2s;
+}
 
 
 /*/////////////////////rightside nav bar/////////////////////*/
@@ -491,7 +497,7 @@ video::-webkit-media-controls-timeline {
 	height: 60px;
 	transition: ease-in-out .3s;
 	margin: 20px;
-
+	filter:brightness(0);
 
 }
 .portfolioBox .itemContainer2 img {
@@ -503,8 +509,8 @@ video::-webkit-media-controls-timeline {
 	transition-property: scale;
 	scale: 110%;
 	transition: ease-in-out .3s;
-	opacity: 80%;
 	transform: rotate(375deg);
+	filter:brightness(1);
 }
 .note3{
 	text-decoration:none;
