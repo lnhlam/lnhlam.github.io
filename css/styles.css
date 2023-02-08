@@ -221,6 +221,23 @@ video::-webkit-media-controls-timeline {
 
 
 }
+.navbar .btn{
+	padding: 6px 8px 6px 8px;
+	text-decoration: none;
+	color: #000000;
+	overflow:hidden;
+	font-size: 17px;
+	margin: 2px;
+	font-weight:700;
+	border: none;
+	border-radius: 5px;
+	background-color:white;
+}
+.navbar .btn:hover {
+	color:#1aaa98;
+	text-shadow: 0px 0px 5px #9BDDFF;
+	transition:ease .5s;
+}
 
 .btn {
 	padding: 6px 8px 6px 8px;
