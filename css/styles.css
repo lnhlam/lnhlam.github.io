@@ -702,6 +702,17 @@ video::-webkit-media-controls-timeline {
 	width: 100%;
 }
 
+.pbox4 {
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	margin: 20px auto;
+}
+.pbox4 img {
+	
+	position: relative;
+
+}
 
 .characterContainer{
 	position: relative;
