@@ -430,7 +430,7 @@ video::-webkit-media-controls-timeline {
 }
 .portfoliobox{
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 	text-align: center;
 	align-content: center;
 	height: auto;
@@ -442,6 +442,7 @@ video::-webkit-media-controls-timeline {
 	position:relative;
 	display:inline-block;
 	max-width: 100%;
+	overflow:visible;
 }
 
 .mainportfolio .itemContainer2 {
@@ -453,8 +454,10 @@ video::-webkit-media-controls-timeline {
 }
 .mainportfolio .itemContainer2:hover {
 	transition-property: scale;
-	scale: 97%;
+	scale: 103%;
 	transition: ease-in-out .3s;
+	filter:drop-shadow(6px 6px 5px #707070);
+	transform:translateY(-10px);
 	
 }
 
@@ -469,7 +472,7 @@ video::-webkit-media-controls-timeline {
 	margin: 0 auto;
 }
 .note2:hover{
- 	box-shadow: 1px 3px 15px 5px inset;
+ 	/* box-shadow: 1px 3px 15px 5px inset; */
 	opacity: .5;
 	transition: ease-in-out .3s;
 	
