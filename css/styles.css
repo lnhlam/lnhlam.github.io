@@ -831,12 +831,3 @@ input[type=submit]:hover {
 	}
 }
 
-.menu a {
-	
-	margin: 20px;
-}
-  
-.menu a.active {
-	color:#ffffff;
-	text-decoration: none;
-}
