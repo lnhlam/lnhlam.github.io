@@ -292,17 +292,26 @@ video::-webkit-media-controls-timeline {
 	left: 0;
 	padding: 10px 0px 10px 0px;
 	text-align: center;
+	
 }
 .icon{
 	margin: 5px 5px;
-	height: 100px;
-	width: 50px;
 	color: #1aaa98;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	transition:ease .5s;
+}
+.icon img{
+	height: auto;
+	width: 3rem;
 }
 .icon:hover{
 	transition:ease .5s;
-	opacity: .3;
+	transform: rotate(45deg);
+	
 }
+
 /*////////////////////////////aboutpage////////////////*/
 .aboutMe{
 	position: relative;
