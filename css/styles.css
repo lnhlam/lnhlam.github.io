@@ -462,7 +462,7 @@ video::-webkit-media-controls-timeline {
 	align-content: center;
 	height: auto;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0px auto;
 }
 .itemContainer2{
@@ -478,29 +478,58 @@ video::-webkit-media-controls-timeline {
 }
 
 .mainportfolio .itemContainer2 {
-	max-width:300px;
+	max-width:1080px;
+	max-height:540px;
 	width: 100%;
-	height: 300px;
+	height: 100%;
 	transition: ease-in-out .3s;
 	margin:10px;
-	border: thin solid #ffffffc2; 
+
 	border-radius: 3px;
 
+	position:relative;
+	z-index: 0;
 }
 .mainportfolio .itemContainer2:hover {
 	transition-property: scale;
-	scale: 103%;
+	scale: 100%;
 	transition: ease-in-out .3s;
 	filter:drop-shadow(6px 6px 5px #707070);
-	transform:translateY(-10px);
-	
+	transform:translateX(-10px);
 }
 
+.portChar {
+	top: 0px;
+	left: 0px;
+	max-width:1080px;
+	max-height:540px;
+	height: 100%;
+	width: auto;
+	transition: ease-in-out .3s;
+	position:absolute;
+	opacity:0%;
+	z-index: 1;
+	overflow:visible;
+	filter:drop-shadow(-100px 0px #ffffff);
+}
+.portChar:hover {
+	transition-property: scale;
+	scale: 100%;
+	transition: ease-in-out .3s;
+	transform:translateX(3rem);
+	opacity:100%;
+	filter:drop-shadow(0px 0px #ffffff);
+}
+.portBack {
+	border: thin solid #ffffffc2; 
+}
 
 .itemThumbnail {
 	width: 100%;
 	height: 100%;
 }
+
+
 .copybox {
 	width: 100%;
 	max-width: 700px;
@@ -542,6 +571,8 @@ video::-webkit-media-controls-timeline {
 	width: 60px;
 	height: 60px;
 }
+
+
 
 .portfolioBox .itemContainer2:hover {
 	transition-property: scale;
