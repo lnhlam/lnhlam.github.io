@@ -327,9 +327,10 @@ video::-webkit-media-controls-timeline {
 	display:inline-block;
 	position: static;
 	overflow: visible;
-	padding:10px;	
+	padding:50px;	
 	height: 250px;
-	width: 270px;
+	width: 100%;
+	max-width: 500px;
 	text-align: left;
 	margin: 50px;
 }
