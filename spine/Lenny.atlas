@@ -1,51 +1,51 @@
 Lenny.png
-size:256,512
+size:512,256
 filter:Linear,Linear
 Lenny Back Arm
-bounds:141,103,36,42
+bounds:123,134,36,42
 Lenny Back Forearm
-bounds:205,258,48,70
+bounds:288,179,48,70
 Lenny Back Forearm0002
-bounds:2,128,50,71
+bounds:236,178,50,71
 Lenny Back Leg
-bounds:54,137,43,62
+bounds:388,187,43,62
 Lenny Back Shoe
-bounds:179,81,60,36
+bounds:433,213,60,36
 Lenny Eyebrows
-bounds:114,14,62,8
+bounds:2,2,62,8
 Lenny Eyes0001
-bounds:125,24,54,22
+bounds:161,153,54,22
 Lenny Eyes0002
-bounds:181,18,54,22
+bounds:167,51,54,22
 Lenny Eyes0003
-bounds:2,26,54,22
+bounds:338,162,54,22
 Lenny Eyes0004
-bounds:58,16,54,22
+bounds:236,154,54,22
 Lenny Eyes0005
-bounds:2,2,54,22
+bounds:333,138,54,22
 Lenny Front Arm
-bounds:54,93,36,42
+bounds:84,10,36,42
 Lenny Front Forearm
-bounds:99,79,40,66
+bounds:84,54,40,66
 Lenny Front Forearm0002
-bounds:123,147,57,71
+bounds:123,178,57,71
 Lenny Front Leg
-bounds:182,119,52,72
+bounds:182,177,52,72
 Lenny Front Shoe
-bounds:141,48,62,31
+bounds:433,180,62,31
 Lenny Hair
-bounds:205,193,48,63
+bounds:338,186,48,63
 Lenny Head
-bounds:2,201,119,127
+bounds:2,122,119,127
 Lenny Mouth0001
-bounds:2,89,39,37
+bounds:126,95,39,37
 Lenny Mouth0002
-bounds:43,54,39,37
+bounds:126,56,39,37
 Lenny Mouth0003
-bounds:2,50,39,37
+bounds:167,114,39,37
 Lenny Mouth0004
-bounds:205,42,39,37
+bounds:167,75,39,37
 Lenny Mouth0005
-bounds:84,40,39,37
+bounds:292,140,39,37
 Lenny Torso
-bounds:123,220,80,108
+bounds:2,12,80,108
