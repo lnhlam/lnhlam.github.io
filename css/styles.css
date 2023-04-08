@@ -878,3 +878,14 @@ input[type=submit]:hover {
 	}
 }
 
+.aboutBG img{
+	display: block;
+    position: absolute;
+    top: 145px;
+
+	width:100%;
+	min-width: 2520px;
+	min-height: 350px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
