@@ -270,7 +270,7 @@ video::-webkit-media-controls-timeline {
 	align-content: center;
 	background-color: white;
 	border-top:solid thin #1aaa98;
-
+	width:100%;
 }
 .mainInfoText{
 	position: inherit;
@@ -279,6 +279,7 @@ video::-webkit-media-controls-timeline {
 	text-align: center;
 	height: 190px;
 	width: 500px;
+	max-width: 500px;
 	background-color: white;
 }
 /*////////////////////////footer//////////////////////*/
@@ -332,7 +333,6 @@ video::-webkit-media-controls-timeline {
 	width: 100%;
 	max-width: 500px;
 	text-align: left;
-	margin: 50px;
 }
 .aboutMeImage{
 	z-index:1;
@@ -877,12 +877,14 @@ input[type=submit]:hover {
 		margin-top: 10px;
 	}
 }
-
+.aboutBG{
+	overflow:hidden;
+}
 .aboutBG img{
 	display: block;
     position: absolute;
     top: 145px;
-
+	
 	width:100%;
 	min-width: 2520px;
 	min-height: 350px;
