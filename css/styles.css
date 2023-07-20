@@ -182,13 +182,14 @@ video::-webkit-media-controls-timeline {
 .homebtnimg {
 
 	text-align: center;
-	color: #1aaa98;
+	color: black;
 	overflow: visible;
 	display: block;
 	width:150px;
 	position:relative;
 	text-shadow: 0px 3px 5px lightgray;
 	transition: ease-in-out .2s;
+	filter:brightness(0);
 }
 
 .homebtn {
@@ -196,7 +197,7 @@ video::-webkit-media-controls-timeline {
 	text-align: center;
 	text-decoration: none;
 	font-weight: 700;
-	color: black;
+	color:black;
 	overflow: visible;
 	display: block;
 	font-size: 3.5rem;
@@ -236,8 +237,27 @@ video::-webkit-media-controls-timeline {
 .homebtnimg:hover{
 	transform: rotate(20deg);
 	transition: ease-in-out .2s;
+	filter:brightness(1);
 }
 
+.homebtnimg2 {
+
+	text-align: center;
+	color: black;
+	overflow: visible;
+	display: block;
+	width:150px;
+	position:relative;
+	text-shadow: 0px 3px 5px lightgray;
+	transition: ease-in-out .2s;
+	filter:brightness(0);
+}
+.homebtnimg2:hover{
+	transform: rotate(20deg);
+	transition: ease-in-out .2s;
+	filter:brightness(5);
+	
+}
 
 /*/////////////////////rightside nav bar/////////////////////*/
 .navbar{
@@ -346,7 +366,7 @@ video::-webkit-media-controls-timeline {
 	width: 3rem;
 }
 .icon:hover{
-	transition:ease .5s;
+	transition: ease .5s;
 	transform: rotate(45deg);
 	
 }
