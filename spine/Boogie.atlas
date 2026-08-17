@@ -1,0 +1,114 @@
+Boogie.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Boogie/Spine Boogie/Boogie Back Hand/Spine - Boogie Back Hand
+bounds:535,1125,45,37
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0001
+bounds:1869,1129,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip00010
+bounds:1923,875,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip00011
+bounds:1923,621,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip00012
+bounds:2,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0002
+bounds:112,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0003
+bounds:222,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0004
+bounds:332,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0005
+bounds:442,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0006
+bounds:552,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0007
+bounds:662,117,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0008
+bounds:1223,367,108,252
+Boogie/Spine Boogie/Boogie Drip/Spine - Boogie Drip0009
+bounds:1223,113,108,252
+Boogie/Spine Boogie/Boogie Face/Spine - Boogie Face
+bounds:772,47,93,77
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0001
+bounds:1701,1001,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0002
+bounds:1701,915,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0003
+bounds:1701,829,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0004
+bounds:1812,1001,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0005
+bounds:1869,1469,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0006
+bounds:1869,1383,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0007
+bounds:1812,915,109,84
+Boogie/Spine Boogie/Boogie Face/Tongue Bounce/Spine - Boogie Face Tongue0008
+bounds:1812,829,109,84
+Boogie/Spine Boogie/Boogie Front Hand/Spine - Boogie Front Hand
+bounds:409,1116,45,38
+Boogie/Spine Boogie/Boogie Joined Legs/Spine - Boogie Joined Legs0001
+bounds:409,1156,81,149
+Boogie/Spine Boogie/Boogie Joined Legs/Spine - Boogie Joined Legs0002
+bounds:1280,688,81,149
+Boogie/Spine Boogie/Boogie Joined Legs/Spine - Boogie Joined Legs0003
+bounds:867,2,81,149
+Boogie/Spine Boogie/Boogie Joined Legs/Spine - Boogie Joined Legs0004
+bounds:950,2,81,149
+Boogie/Spine Boogie/Spine - Boogie Back Arm
+bounds:772,249,39,120
+Boogie/Spine Boogie/Spine - Boogie Back Leg
+bounds:1979,1271,67,110
+Boogie/Spine Boogie/Spine - Boogie Front Arm
+bounds:772,126,33,121
+Boogie/Spine Boogie/Spine - Boogie Front Leg
+bounds:1979,1163,67,106
+Boogie/Spine Boogie/Spine - Boogie Head
+bounds:492,1164,143,141
+Boogie/Spine Boogie/Spine - Boogie Torso
+bounds:1033,14,79,137
+Enemies/Labcoat/Spine Labcoat/Spine - Labcoat Item
+bounds:492,1111,41,51
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0001
+bounds:1980,1476,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0006
+bounds:1980,1476,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0002
+bounds:1980,1397,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0003
+bounds:1114,74,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0004
+bounds:1166,74,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0005
+bounds:2,38,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0007
+bounds:54,38,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0008
+bounds:106,38,50,77
+_Held Items/Tazer Stick/Weapon - Tazer Stick0001
+bounds:648,1087,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0002
+bounds:2,839,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0003
+bounds:1055,1087,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0004
+bounds:1462,1087,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0005
+bounds:2,371,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0006
+bounds:409,371,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0007
+bounds:816,153,405,466
+_Smears/smear_punch/smear_punch0001
+bounds:816,774,462,63
+_Smears/smear_punch/smear_punch0002
+bounds:816,709,462,63
+_Smears/smear_punch/smear_punch0003
+bounds:816,644,462,63
+_Smears/smear_throw/smear_throw0001
+bounds:2,1307,644,246
+_Smears/smear_throw/smear_throw0002
+bounds:409,839,644,246
+_Smears/smear_throw/smear_throw0003
+bounds:1055,839,644,246
