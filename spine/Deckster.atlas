@@ -1,0 +1,142 @@
+Deckster.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Deckster/Spine Deckster/Deckster Back Arm/Deckster Back Arm
+bounds:963,16,30,46
+Deckster/Spine Deckster/Deckster Back Foot/Deckster Back Foot
+bounds:628,29,79,33
+Deckster/Spine Deckster/Deckster Back Forearm/Deckster Back Forearm0001
+bounds:931,1285,71,84
+Deckster/Spine Deckster/Deckster Back Forearm/Deckster Back Forearm0002
+bounds:931,1199,71,84
+Deckster/Spine Deckster/Deckster Back Forearm/Deckster Back Forearm0003
+bounds:931,1113,71,84
+Deckster/Spine Deckster/Deckster Back Leg/Deckster Back Leg
+bounds:578,4,48,58
+Deckster/Spine Deckster/Deckster Face/Deckster Face0001
+bounds:1050,323,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0002
+bounds:1057,216,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0003
+bounds:1087,109,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0004
+bounds:1087,2,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0005
+bounds:931,1371,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0006
+bounds:966,1487,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0007
+bounds:1032,1941,85,105
+Deckster/Spine Deckster/Deckster Face/Deckster Face0008
+bounds:1032,1834,85,105
+Deckster/Spine Deckster/Deckster Front Arm/Deckster Front Arm0001
+bounds:822,12,41,50
+Deckster/Spine Deckster/Deckster Front Arm/Deckster Front Arm0002
+bounds:865,12,41,50
+Deckster/Spine Deckster/Deckster Front Foot/Deckster Front Foot
+bounds:709,26,68,36
+Deckster/Spine Deckster/Deckster Front Forearm/Deckster Front Forearm0001
+bounds:816,644,74,83
+Deckster/Spine Deckster/Deckster Front Forearm/Deckster Front Forearm0002
+bounds:892,644,74,83
+Deckster/Spine Deckster/Deckster Front Forearm/Deckster Front Forearm0003
+bounds:1002,1612,74,83
+Deckster/Spine Deckster/Deckster Front Leg/Deckster Front Leg
+bounds:931,731,48,64
+Deckster/Spine Deckster/Deckster Glasses/Deckster Glasses
+bounds:439,6,137,56
+Deckster/Spine Deckster/Deckster Hair/Deckster Hair
+bounds:908,25,53,37
+Deckster/Spine Deckster/Deckster Hat/Deckster Hat
+bounds:816,1594,184,101
+Deckster/Spine Deckster/Deckster Head/Deckster Head
+bounds:816,1478,148,114
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard
+bounds:1032,1720,65,112
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0001
+bounds:409,181,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use00010
+bounds:439,64,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0002
+bounds:625,181,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0003
+bounds:655,64,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0004
+bounds:841,181,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0005
+bounds:871,64,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0006
+bounds:816,1931,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0009
+bounds:816,1931,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0007
+bounds:816,1814,214,115
+Deckster/Spine Deckster/Deckster Skateboard/Deckster Skateboard Use0008
+bounds:816,1697,214,115
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0001
+bounds:816,1371,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail00013
+bounds:816,1371,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail00010
+bounds:816,1264,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail00011
+bounds:816,1157,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail00012
+bounds:816,1050,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0002
+bounds:816,943,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0003
+bounds:816,836,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0004
+bounds:816,729,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0005
+bounds:846,537,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0006
+bounds:846,430,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0007
+bounds:846,323,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0008
+bounds:961,537,113,105
+Deckster/Spine Deckster/Deckster Tail/Deckster Tail0009
+bounds:961,430,113,105
+Deckster/Spine Deckster/Deckster Torso/Deckster Torso
+bounds:961,315,87,113
+Enemies/Labcoat/Spine Labcoat/Spine - Labcoat Item
+bounds:779,11,41,51
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0001
+bounds:931,1034,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0006
+bounds:931,1034,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0002
+bounds:931,955,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0003
+bounds:931,876,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0004
+bounds:931,797,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0005
+bounds:968,652,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0007
+bounds:983,1034,50,77
+_Held Items/Chemical Beaker/Weapon - Chemical Beaker0008
+bounds:1004,1292,50,77
+_Held Items/Tazer Stick/Weapon - Tazer Stick0001
+bounds:2,1580,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0002
+bounds:2,1112,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0003
+bounds:2,644,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0004
+bounds:2,176,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0005
+bounds:409,1580,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0006
+bounds:409,1112,405,466
+_Held Items/Tazer Stick/Weapon - Tazer Stick0007
+bounds:409,644,405,466
+_Smears/smear_deckster/Deckster_smear_dash0001
+bounds:2,3,435,171
+_Smears/smear_deckster/Deckster_smear_dash0002
+bounds:409,471,435,171
+_Smears/smear_deckster/Deckster_smear_dash0003
+bounds:409,298,435,171

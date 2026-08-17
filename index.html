@@ -1,22 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://use.typekit.net/ycx6frc.css">	
+<script src="https://use.typekit.net/ycx6frc.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://unpkg.com/@esotericsoftware/spine-player@4.1.*/dist/iife/spine-player.js"></script> <!--spine-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.1.*/dist/spine-player.css"> <!--spine-->
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Lenny | Portfolio</title>
-      <meta name="description" content="Showcase creative portfolios with interactive categories for motion design, illustration, and technical game art featuring video reels, galleries, and detailed project views." />
-      <meta name="robots" content="noindex, nofollow" />
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-      
-    </head>
 
-    <body>
-      
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-      
-    </body>
-  </html>
-  
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<meta charset="UTF-8">
+
+
+<title>LINH LAM | Portfolio</title>
+
+
+</head>
+
+<body>
+
+<!--NAVIGATION BAR-->
+<div class="nav"> 
+
+
+        <div class="homebtncontainer">
+			
+			<a class="homebtnimg" href="index.html"><img src="images/lamblogo.png" width="130" height="130" alt=""/></a>
+        	<br>
+        	<a class="homebtn" href="index.html">Linh Lam</a>
+		</div>
+		
+		<div class="navbar">
+			<a class = "btn" href="about.html">About</a>
+			<a class = "btn" href="index.html">Portfolio</a>
+<!-- 			<a class = "btn" href="gallery.html">Gallery</a>
+			<a class = "btn" href="watch.html">Watch</a> -->
+			<a class = "btn" href="contact.html">Contact</a>
+      	</div>
+
+
+</div>
+
+
+
+
+
+<div class="homeVideo">
+	<div class="reelAvatar">
+		<div id="player-container" style="width: 400px; height: 500px;"></div>
+		<script>
+			new spine.SpinePlayer("player-container", {
+				jsonUrl: "https://lnhlam.art/spine/Lenny.json",
+				atlasUrl: "https://lnhlam.art/spine/Lenny.atlas",
+				premultipliedAlpha: false, // Disable premultiplied alpha rendering
+				alpha: true, // Enable player translucency
+				backgroundColor: "#00000000", // Background is fully transparent
+				animation: "Watching", // Player will start with "" animation
+				showControls: false, // Hide the player controls
+			});
+		</script>
+
+	</div>
+	<h2>Demo Reel</h2>
+	<p2>Motion Design Work</p2>
+	<br>
+
+	<video controls> 
+		<source src="https://lnhlam.art/video/Motion-Graphics-Reel-2026.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<br><br><br>
+		<p2>Introduction</p2>
+	<br>
+	<video controls> 
+		<source src="https://lnhlam.art/video/Demo-Reel.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<br>
+	</div>
+
+<div class="portfolio">
+		<h1>Portfolio</h1>
+		<p>Video Game Art and Design Work</p>
+		<div class="portfoliobox mainportfolio">
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="https://lennylam1.artstation.com/projects" target="_blank" rel="noopener noreferrer">
+					<img src="images/pthumbnail8.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char8.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>	
+			<p>Art Station Portfolio (Individual Projects and Illustrations)</p>
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio4.html">
+					<img src="images/pthumbnail4.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char4.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>	
+			
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio6.html">
+					<img src="images/pthumbnail6.jpg" width="100%" height="100%" alt="wtfisalinh" class="portBack">
+					<img src="images/char6.png" width="100%" height="100%" alt="wtfisalinh" class="portChar">
+			</div>	
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio7.html">
+					<img src="images/pthumbnail7.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char7.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio3.html">
+					<img src="images/pthumbnail3.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char3.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">	
+			</div>	
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio2.html">
+					<img src="images/pthumbnail2.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char2.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>	
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio1.html">
+					<img src="images/pthumbnail1.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char1.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>	
+
+			<div class="itemContainer2">
+				<a class = "itemThumbnail" href="portfolio5.html">
+					<img src="images/pthumbnail5.jpg" width="100%" height="100%" alt="wtfisalinh"class="portBack"/>
+					<img src="images/char5.png" width="100%" height="100%"  alt="wtfisalinh" class="portChar">
+			</div>	
+
+
+		</div>
+</div>
+
+
+
+<div class="footer">
+	<a class = "icon" href="https://www.instagram.com/lnhlam.art" target="_blank">
+		<img src="images/instaicon.png" width="37" height="36" alt="Instagram"/>
+	</a>
+		
+
+	<a class = "icon" href="https://lennylam1.artstation.com//" target="_blank" rel="noopener noreferrer">
+		<img src="images/artstationicon.png" width="37" height="36" alt="Art Station"/>
+	</a>
+
+	
+	<a class = "icon" href="https://www.linkedin.com/in/lnhlam/" target="_blank">
+		<img src="images/linkedinicon.png" width="37" height="36" alt="Linkedin"/> 
+	</a>
+</div>
+
+</body>
+</html>
